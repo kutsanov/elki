@@ -20,8 +20,6 @@ class HouseCard extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: GestureDetector(
         onTap: () {
-          //print(house.toString());
-          //Navigator.pushNamed(context, "/house");
           Navigator.push(
             context,
             MaterialPageRoute(
